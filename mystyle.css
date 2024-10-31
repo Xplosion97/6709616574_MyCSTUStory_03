@@ -1,0 +1,79 @@
+body {
+    background-image: url(/resources/Background-website-01-1024x687-1.jpeg);
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1 {
+    color: wheat;
+    font-family: cursive;
+    background-color: gray;
+}
+
+h2 {
+    color: red;
+    font-family: fantasy;
+    background-color: antiquewhite;
+}
+
+h3 {
+    font-family: monospace;
+    background-color: aliceblue;
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 30px;
+    font-family: cursive;
+    background-color: lightcyan;
+}
+h5 {
+    font-family: cursive;
+    background-color: aquamarine;
+}
+p {
+    font-size: larger;
+}
+
+table {
+    border: 1px solid black;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+li {
+    font-size: 25px;
+}
+
+div {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+img{
+    border-radius: 70%;
+    opacity: 855%;
+}
+a:link, a:visited {
+    background-color: #89a3a5;
+    color: white;
+    padding: 2px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
