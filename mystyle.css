@@ -107,7 +107,10 @@ a:link, a:visited {
     margin: 0;
     padding: 0;
   }
-  
+  video{
+    clear: both;
+    align-items: center;
+  }
   .menu li {
     padding: 8px;
     margin-bottom: 7px;
@@ -141,8 +144,10 @@ a:link, a:visited {
   /*  phones: */
   [class*="col-"] {
     width: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+    video{
+        display: none;
+    }
   
   @media only screen and (min-width: 600px) {
     /* Ipads: */
@@ -158,6 +163,9 @@ a:link, a:visited {
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+    video{
+        display:block;
+    }
   }
   @media only screen and (min-width: 768px) {
     /*PC: */
@@ -173,4 +181,7 @@ a:link, a:visited {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+    video{
+        display:block;
+    }
   }
